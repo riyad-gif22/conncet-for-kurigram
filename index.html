@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kurigram Connect</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =======================
+         SIDEBAR
+    ======================== -->
+
+    <div class="sidebar" id="sidebar">
+
+        <div class="close-btn" id="closeBtn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <h2>Kurigram Connect</h2>
+
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-bus"></i> Transport</a></li>
+            <li><a href="#"><i class="fa-solid fa-train"></i> Train</a></li>
+            <li><a href="#"><i class="fa-solid fa-hospital"></i> Hospital</a></li>
+            <li><a href="#"><i class="fa-solid fa-user-doctor"></i> Doctors</a></li>
+            <li><a href="#"><i class="fa-solid fa-droplet"></i> Blood Donation</a></li>
+            <li><a href="#"><i class="fa-solid fa-school"></i> Education</a></li>
+            <li><a href="#"><i class="fa-solid fa-building-columns"></i> Government Office</a></li>
+            <li><a href="#"><i class="fa-solid fa-phone"></i> Emergency</a></li>
+        </ul>
+
+    </div>
+
+    <!-- =======================
+         HEADER
+    ======================== -->
+
+    <header class="header">
+
+        <div class="menu" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="logoArea">
+
+            <img src="image/logo.png" class="logo" alt="Logo">
+
+            <div>
+                <h2>Kurigram Connect</h2>
+                <p>Official District Service Platform</p>
+            </div>
+
+        </div>
+
+        <div class="rightIcon">
+
+            <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+
+            <i class="fa-solid fa-bell" id="notificationBtn"></i>
+
+        </div>
+
+    </header>
+
+    <!-- =======================
+         SEARCH
+    ======================== -->
+
+    <section class="searchBox">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search services...">
+
+    </section>
+
+    <!-- =======================
+         BANNER
+    ======================== -->
+
+    <section class="slider">
+
+        <img
+            id="sliderImage"
+            src="image/Banner1.png"
+            alt="Kurigram Banner">
+
+    </section>
+
+    <!-- =======================
+         NOTICE BOARD
+    ======================== -->
+
+    <section class="notice">
+
+        <marquee>
+
+            📢 Welcome to Kurigram Connect |
+            🩸 Blood Donor Registration Open |
+            🚌 Bus Schedule Updated |
+            🏥 Hospital Information Available |
+            🌾 Agriculture Services Added |
+            🎓 Admission Information Available
+
+        </marquee>
+
+    </section>
+    <!-- =========================
+     HOME INFO SECTION
+========================== -->
+
+<section class="home-info">
+
+    <!-- Weather Card -->
+    <div class="info-card weather-card">
+        <i class="fa-solid fa-cloud-sun"></i>
+        <div>
+            <h3>Kurigram Weather</h3>
+            <p>31°C | Sunny</p>
+        </div>
+    </div>
+
+    <!-- Date Card -->
+    <div class="info-card date-card">
+        <i class="fa-solid fa-calendar-days"></i>
+        <div>
+            <h3>Today's Date</h3>
+            <p id="currentDate"></p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Emergency -->
+
+<section class="emergency">
+
+    <h2>🚨 Emergency Services</h2>
+
+    <div class="emergency-grid">
+
+        <div class="emergency-card">
+            <i class="fa-solid fa-truck-medical"></i>
+            <span>Ambulance</span>
+        </div>
+
+        <div class="emergency-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Police</span>
+        </div>
+
+        <div class="emergency-card">
+            <i class="fa-solid fa-fire-extinguisher"></i>
+            <span>Fire Service</span>
+        </div>
+
+        <div class="emergency-card">
+            <i class="fa-solid fa-droplet"></i>
+            <span>Blood</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>14</h2>
+        <p>Services</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>50+</h2>
+        <p>Places</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>24/7</h2>
+        <p>Support</p>
+    </div>
+
+</section>
+<!-- =========================
+     LATEST NEWS
+========================= -->
+
+<section class="latest-news">
+
+    <div class="section-title">
+        <h2>📰 Latest News</h2>
+        <a href="#">View All</a>
+    </div>
+
+    <div class="news-card">
+        <i class="fa-solid fa-newspaper"></i>
+        <div>
+            <h4>Kurigram Flood Update</h4>
+            <p>Latest flood information and relief activities.</p>
+        </div>
+    </div>
+
+    <div class="news-card">
+        <i class="fa-solid fa-bus"></i>
+        <div>
+            <h4>New Bus Schedule</h4>
+            <p>Dhaka–Kurigram bus schedule has been updated.</p>
+        </div>
+    </div>
+
+    <div class="news-card">
+        <i class="fa-solid fa-droplet"></i>
+        <div>
+            <h4>Blood Donation Camp</h4>
+            <p>Blood donation camp on Friday at Kurigram Sadar Hospital.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- =========================
+     POPULAR PLACES
+========================= -->
+
+<section class="popular">
+
+    <div class="section-title">
+        <h2>📍 Popular Places</h2>
+    </div>
+
+    <div class="place-grid">
+
+        <div class="place-card">
+            <i class="fa-solid fa-water"></i>
+            <h4>Dharla Bridge</h4>
+        </div>
+
+        <div class="place-card">
+            <i class="fa-solid fa-ship"></i>
+            <h4>Chilmari Port</h4>
+        </div>
+
+        <div class="place-card">
+            <i class="fa-solid fa-tree"></i>
+            <h4>Nageshwari</h4>
+        </div>
+
+        <div class="place-card">
+            <i class="fa-solid fa-landmark"></i>
+            <h4>Kurigram Stadium</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     QUICK ACTIONS
+========================= -->
+
+<section class="quick-actions">
+
+    <h2>⚡ Quick Actions</h2>
+
+    <div class="action-grid">
+
+        <a href="#" class="action-card">
+            <i class="fa-solid fa-truck-medical"></i>
+            <span>Ambulance</span>
+        </a>
+
+        <a href="#" class="action-card">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Emergency</span>
+        </a>
+
+        <a href="#" class="action-card">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Map</span>
+        </a>
+
+        <a href="#" class="action-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Tourism</span>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Floating Button -->
+
+<a href="#" class="floating-btn">
+    <i class="fa-solid fa-phone"></i>
+</a>
+
+    <!-- =======================
+         OUR SERVICES
+    ======================== -->
+
+    <div class="title">
+        <h3>Our Services</h3>
+    </div>
+
+    <section class="category">
+                <!-- Service Card 1 -->
+        <a href="pages/bus.html" class="card">
+            <i class="fa-solid fa-bus"></i>
+            <span>Bus</span>
+        </a>
+
+        <!-- Service Card 2 -->
+        <a href="pages/train.html" class="card">
+            <i class="fa-solid fa-train"></i>
+            <span>Train</span>
+        </a>
+
+        <!-- Service Card 3 -->
+        <a href="pages/hospital.html" class="card">
+            <i class="fa-solid fa-hospital"></i>
+            <span>Hospital</span>
+        </a>
+
+        <!-- Service Card 4 -->
+        <a href="pages/doctor.html" class="card">
+            <i class="fa-solid fa-user-doctor"></i>
+            <span>Doctor</span>
+        </a>
+
+        <!-- Service Card 5 -->
+        <a href="pages/blood.html" class="card">
+            <i class="fa-solid fa-droplet"></i>
+            <span>Blood</span>
+        </a>
+
+        <!-- Service Card 6 -->
+        <a href="pages/fire.html" class="card">
+            <i class="fa-solid fa-fire"></i>
+            <span>Fire Service</span>
+        </a>
+
+        <!-- Service Card 7 -->
+        <a href="pages/police.html" class="card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Police</span>
+        </a>
+
+        <!-- Service Card 8 -->
+        <a href="pages/education.html" class="card">
+            <i class="fa-solid fa-school"></i>
+            <span>Education</span>
+        </a>
+
+        <!-- Service Card 9 -->
+        <a href="pages/tourism.html" class="card">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Tourism</span>
+        </a>
+
+        <!-- Service Card 10 -->
+        <a href="pages/agriculture.html" class="card">
+            <i class="fa-solid fa-tractor"></i>
+            <span>Agriculture</span>
+        </a>
+
+        <!-- Service Card 11 -->
+        <a href="pages/jobs.html" class="card">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Jobs</span>
+        </a>
+
+        <!-- Service Card 12 -->
+        <a href="pages/news.html" class="card">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>News</span>
+        </a>
+
+        <!-- Service Card 13 -->
+        <a href="pages/map.html" class="card">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Map</span>
+        </a>
+
+        <!-- Service Card 14 -->
+        <a href="pages/emergency.html" class="card">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Emergency</span>
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <h2>Kurigram Connect</h2>
+
+        <p>
+            Everything About Kurigram in One Place
+        </p>
+
+        <p>
+            © 2026 Kurigram Connect. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+        <a href="#">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-heart"></i>
+            <span>Favorite</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-gear"></i>
+            <span>Settings</span>
+        </a>
+
+    </nav>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

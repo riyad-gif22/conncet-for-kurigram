@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kurigram Connect - Appointment</title>
+
+<link rel="stylesheet" href="../css/appointment.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Book Your Appointment</h1>
+
+<p>Kurigram Connect Healthcare Service</p>
+
+</header>
+
+
+
+<section class="appointment-box">
+
+
+<h2>Patient Information</h2>
+
+
+<form id="appointmentForm">
+
+
+<label>Patient Name</label>
+
+<input 
+type="text" 
+id="name"
+placeholder="Enter your name"
+>
+
+
+
+
+<label>Mobile Number</label>
+
+<input 
+type="number"
+id="mobile"
+placeholder="Enter mobile number"
+>
+
+
+
+
+<label>Select Doctor</label>
+
+<select id="doctor">
+
+
+<option>Select Doctor</option>
+
+<option>Dr. Rahman - Medicine Specialist</option>
+
+<option>Dr. Karim - Child Specialist</option>
+
+<option>Dr. Hasan - Surgery Specialist</option>
+
+
+</select>
+
+
+
+
+
+<label>Appointment Date</label>
+
+<input 
+type="date"
+id="date"
+>
+
+
+
+
+
+<label>Your Problem</label>
+
+<textarea 
+id="problem"
+placeholder="Write your problem">
+</textarea>
+
+
+
+
+
+<button type="submit">
+Book Appointment
+</button>
+
+
+</form>
+
+
+<p id="message"></p>
+
+
+</section>
+
+
+
+
+<script src="../js/appointment.js"></script>
+
+
+</body>
+
+</html>
