@@ -2,121 +2,75 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Kurigram Connect</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/appointment.css">
 
-<title>Kurigram Connect - Appointment</title>
-
-<link rel="stylesheet" href="../css/appointment.css">
-
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-
 
 <body>
 
+<header class="header">
 
-<header>
+    <a href="../index.html" class="back">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
 
-<h1>Book Your Appointment</h1>
+    <h2>Book Appointment</h2>
 
-<p>Kurigram Connect Healthcare Service</p>
+    <i class="fa-solid fa-calendar-check"></i>
 
 </header>
 
+<div class="container">
 
+    <form id="appointmentForm">
 
-<section class="appointment-box">
+        <input type="text" placeholder="Full Name" required>
 
+        <input type="tel" placeholder="Mobile Number" required>
 
-<h2>Patient Information</h2>
+        <input type="number" placeholder="Age" required>
 
+        <select required>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
 
-<form id="appointmentForm">
+        <select required>
+            <option>Select Hospital</option>
+            <option>Kurigram General Hospital</option>
+            <option>Kurigram Medical Center</option>
+            <option>Diabetic Hospital</option>
+        </select>
 
+        <select required>
+            <option>Select Doctor</option>
+            <option>Dr. Ahmed Hasan</option>
+            <option>Dr. Rahman</option>
+            <option>Dr. Karim</option>
+        </select>
 
-<label>Patient Name</label>
+        <input type="date" required>
 
-<input 
-type="text" 
-id="name"
-placeholder="Enter your name"
->
+        <input type="time" required>
 
+        <textarea placeholder="Describe your problem"></textarea>
 
+        <button type="submit">
+            Book Appointment
+        </button>
 
+    </form>
 
-<label>Mobile Number</label>
-
-<input 
-type="number"
-id="mobile"
-placeholder="Enter mobile number"
->
-
-
-
-
-<label>Select Doctor</label>
-
-<select id="doctor">
-
-
-<option>Select Doctor</option>
-
-<option>Dr. Rahman - Medicine Specialist</option>
-
-<option>Dr. Karim - Child Specialist</option>
-
-<option>Dr. Hasan - Surgery Specialist</option>
-
-
-</select>
-
-
-
-
-
-<label>Appointment Date</label>
-
-<input 
-type="date"
-id="date"
->
-
-
-
-
-
-<label>Your Problem</label>
-
-<textarea 
-id="problem"
-placeholder="Write your problem">
-</textarea>
-
-
-
-
-
-<button type="submit">
-Book Appointment
-</button>
-
-
-</form>
-
-
-<p id="message"></p>
-
-
-</section>
-
-
-
+</div>
 
 <script src="../js/appointment.js"></script>
-
 
 </body>
 

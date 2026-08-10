@@ -8,7 +8,7 @@
     <title>Kurigram Connect</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,9 +16,13 @@
     <!-- Font Awesome -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+       
 </head>
 
 <body>
+    <!-- <div id="loader">
+    <div class="spinner"></div> -->
+</div>
 
     <!-- =======================
          SIDEBAR
@@ -32,17 +36,86 @@
 
         <h2>Kurigram Connect</h2>
 
-        <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#"><i class="fa-solid fa-bus"></i> Transport</a></li>
-            <li><a href="#"><i class="fa-solid fa-train"></i> Train</a></li>
-            <li><a href="#"><i class="fa-solid fa-hospital"></i> Hospital</a></li>
-            <li><a href="#"><i class="fa-solid fa-user-doctor"></i> Doctors</a></li>
-            <li><a href="#"><i class="fa-solid fa-droplet"></i> Blood Donation</a></li>
-            <li><a href="#"><i class="fa-solid fa-school"></i> Education</a></li>
-            <li><a href="#"><i class="fa-solid fa-building-columns"></i> Government Office</a></li>
-            <li><a href="#"><i class="fa-solid fa-phone"></i> Emergency</a></li>
-        </ul>
+       <ul>
+
+<li>
+<a href="../index.html">
+    <i class="fa-solid fa-house"></i>
+    Home
+</a>
+</li>
+
+<li>
+<a href="page/hospital.html">
+<i class="fa-solid fa-hospital"></i>
+Hospital
+</a>
+</li>
+
+<li>
+<a href="page/doctor.html">
+<i class="fa-solid fa-user-doctor"></i>
+Doctor
+</a>
+</li>
+
+<li>
+<a href="page/appointment.html">
+<i class="fa-solid fa-calendar-check"></i>
+Appointment
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-droplet"></i>
+Blood Donation
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-bus"></i>
+Bus Service
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-train"></i>
+Train Service
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-school"></i>
+Education
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-location-dot"></i>
+Tourism
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="fa-solid fa-phone"></i>
+Emergency
+</a>
+</li>
+
+<li>
+<a href="page/about.html">
+<i class="fa-solid fa-user"></i>
+About Developer
+</a>
+</li>
+
+</ul>
 
     </div>
 
@@ -96,10 +169,13 @@
 
     <section class="slider">
 
-        <img
-            id="sliderImage"
-            src="image/Banner1.png"
-            alt="Kurigram Banner">
+        <div class="banner-slider">
+    <img src="image/banner/banner.png" class="active">
+    <img src="image/banner/Banner2.png">
+    <img src="image/banner/Banner3.png">
+    <img src="image/banner/Banner4.png">
+    <img src="image/banner/Banner5.png">
+</div>
 
     </section>
 
@@ -322,85 +398,85 @@
 
     <section class="category">
                 <!-- Service Card 1 -->
-        <a href="pages/bus.html" class="card">
+        <a href="page/bus.html" class="card">
             <i class="fa-solid fa-bus"></i>
             <span>Bus</span>
         </a>
 
         <!-- Service Card 2 -->
-        <a href="pages/train.html" class="card">
+        <a href="page/train.html" class="card">
             <i class="fa-solid fa-train"></i>
             <span>Train</span>
         </a>
 
         <!-- Service Card 3 -->
-        <a href="pages/hospital.html" class="card">
+        <a href="page/hospital.html" class="card">
             <i class="fa-solid fa-hospital"></i>
             <span>Hospital</span>
         </a>
 
         <!-- Service Card 4 -->
-        <a href="pages/doctor.html" class="card">
+        <a href="page/doctor.html" class="card">
             <i class="fa-solid fa-user-doctor"></i>
             <span>Doctor</span>
         </a>
 
         <!-- Service Card 5 -->
-        <a href="pages/blood.html" class="card">
+        <a href="page/blood.html" class="card">
             <i class="fa-solid fa-droplet"></i>
             <span>Blood</span>
         </a>
 
         <!-- Service Card 6 -->
-        <a href="pages/fire.html" class="card">
+        <a href="page/fire.html" class="card">
             <i class="fa-solid fa-fire"></i>
             <span>Fire Service</span>
         </a>
 
         <!-- Service Card 7 -->
-        <a href="pages/police.html" class="card">
+        <a href="page/police.html" class="card">
             <i class="fa-solid fa-shield-halved"></i>
             <span>Police</span>
         </a>
 
         <!-- Service Card 8 -->
-        <a href="pages/education.html" class="card">
+        <a href="page/education.html" class="card">
             <i class="fa-solid fa-school"></i>
             <span>Education</span>
         </a>
 
         <!-- Service Card 9 -->
-        <a href="pages/tourism.html" class="card">
+        <a href="page/tourism.html" class="card">
             <i class="fa-solid fa-location-dot"></i>
             <span>Tourism</span>
         </a>
 
         <!-- Service Card 10 -->
-        <a href="pages/agriculture.html" class="card">
+        <a href="page/agriculture.html" class="card">
             <i class="fa-solid fa-tractor"></i>
             <span>Agriculture</span>
         </a>
 
         <!-- Service Card 11 -->
-        <a href="pages/jobs.html" class="card">
+        <a href="page/jobs.html" class="card">
             <i class="fa-solid fa-briefcase"></i>
             <span>Jobs</span>
         </a>
 
         <!-- Service Card 12 -->
-        <a href="pages/news.html" class="card">
+        <a href="page/news.html" class="card">
             <i class="fa-solid fa-newspaper"></i>
             <span>News</span>
         </a>
 
         <!-- Service Card 13 -->
-        <a href="pages/map.html" class="card">
+        <a href="page/map.html" class="card">
             <i class="fa-solid fa-map-location-dot"></i>
             <span>Map</span>
         </a>
 
         <!-- Service Card 14 -->
-        <a href="pages/emergency.html" class="card">
+        <a href="page/emergency.html" class="card">
             <i class="fa-solid fa-phone-volume"></i>
             <span>Emergency</span>
         </a>
@@ -411,17 +487,52 @@
 
     <footer class="footer">
 
-        <h2>Kurigram Connect</h2>
+    <h2>Kurigram Connect</h2>
+
+    <p>Your Trusted Digital Service Platform for Kurigram.</p>
+
+    <div class="footer-contact">
 
         <p>
-            Everything About Kurigram in One Place
+            <i class="fa-solid fa-envelope"></i>
+            ovronillre@gmail.com
         </p>
 
         <p>
-            © 2026 Kurigram Connect. All Rights Reserved.
+            <i class="fa-solid fa-phone"></i>
+            +8801601849358
         </p>
 
-    </footer>
+    </div>
+
+    <div class="footer-social">
+
+        <a href="https://www.facebook.com/profile.php?id=61550258212341" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://github.com/riyad-gif22" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+    </div>
+
+    <hr>
+
+    <p>
+        © 2026 Kurigram Connect. All Rights Reserved.
+    </p>
+
+    <p>
+        Designed & Developed by
+        <strong>
+            <a href="page/about.html">
+                Md. Riyad Babu
+            </a>
+        </strong>
+    </p>
+
+</footer>
 
     <!-- Bottom Navigation -->
 
@@ -449,7 +560,10 @@
 
     </nav>
 
-    <script src="script.js"></script>
-
+   <script src="js/style.js"></script>
+<!-- Back To Top Button -->
+<button id="topBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
 </body>
 </html>

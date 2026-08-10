@@ -2,19 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kurigram Hospitals | Kurigram Connect</title>
+    <title>Hospitals | Kurigram Connect</title>
 
     <link rel="stylesheet" href="../css/hospital.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
 </head>
 
 <body>
@@ -23,7 +18,7 @@
 
     <header class="header">
 
-        <a href="../index.html" class="back-btn">
+        <a href="../index.html" class="back">
             <i class="fa-solid fa-arrow-left"></i>
         </a>
 
@@ -33,30 +28,22 @@
 
     </header>
 
-    <!-- Hero Banner -->
-
-    <section class="hero">
-
-        <img src="../image/hospital-banner.jpg" alt="Hospital Banner">
-
-        <div class="hero-text">
-
-            <h1>Find Hospitals in Kurigram</h1>
-
-            <p>Emergency healthcare information in one place.</p>
-
-        </div>
-
-    </section>
-
     <!-- Search -->
 
     <section class="search">
 
-        <input
-            type="text"
-            id="searchHospital"
-            placeholder="Search Hospital...">
+        <input type="text" placeholder="Search Hospital...">
+
+    </section>
+
+    <!-- Categories -->
+
+    <section class="category">
+
+        <button>All</button>
+        <button>Government</button>
+        <button>Private</button>
+        <button>Clinic</button>
 
     </section>
 
@@ -64,7 +51,86 @@
 
     <section class="hospital-list">
 
+        <!-- Card 1 -->
+
+        <div class="card">
+
+            <img src="../image/hospitals/hospital1.jpg" alt="Hospital">
+
+            <div class="info">
+
+                <h3>Kurigram General Hospital</h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Kurigram Sadar
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    01300000000
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-clock"></i>
+                    Open 24 Hours
+                </p>
+
+                <div class="btn">
+
+                    <a href="#">Call</a>
+
+                    <a href="#">Map</a>
+
+                    <a href="#">Details</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="card">
+
+            <img src="../image/hospitals/hospital2.jpg" alt="Hospital">
+
+            <div class="info">
+
+                <h3>Kurigram Medical Center</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Kurigram</p>
+
+                <p><i class="fa-solid fa-phone"></i> 01700000000</p>
+
+                <p><i class="fa-solid fa-clock"></i> 24 Hours</p>
+
+                <div class="btn">
+
+                    <a href="#">Call</a>
+
+                    <a href="#">Map</a>
+
+                    <a href="#">Details</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Kurigram Connect</h3>
+
+        <p>Designed & Developed by Md. Riyad Babu</p>
+
+    </footer>
 
     <script src="../js/hospital.js"></script>
 
